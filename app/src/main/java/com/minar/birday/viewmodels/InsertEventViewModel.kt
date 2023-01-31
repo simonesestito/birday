@@ -13,7 +13,6 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
-@ExperimentalStdlibApi
 class InsertEventViewModel(application: Application) : AndroidViewModel(application) {
     private val contactsRepository = ContactsRepository()
 
